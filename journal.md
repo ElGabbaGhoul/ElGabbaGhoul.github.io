@@ -10,3 +10,8 @@
  
 - began EXCALIDRAWING plans for site
 - made minor modifications to index.html
+
+1/11/23
+
+- continued working on EXCALIDRAWING plans for site
+- made minor changes to index.html
