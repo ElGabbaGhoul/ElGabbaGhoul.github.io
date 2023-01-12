@@ -707,3 +707,9 @@ nav ul li a {
   .hover:hover {
   display: true;
   }
+
+.tiktok {
+  height: 1rem;
+  width: auto;
+  color: #999
+}
