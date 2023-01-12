@@ -286,7 +286,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: 5px;
   margin-top: 30px;
   text-transform: capitalize;
@@ -700,10 +700,18 @@ nav ul li a {
 
 /* Stuff that scooter added */
 
-.hover {
+span {
   display: none;
   }
-  
-  .hover:hover {
-  display: true;
-  }
+
+  p:hover + .display_hover, p {
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  background-color: #008075;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 30px;
+}
