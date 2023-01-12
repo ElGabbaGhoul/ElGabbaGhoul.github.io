@@ -696,3 +696,14 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+
+/* Stuff that scooter added */
+
+.hover {
+  display: none;
+  }
+  
+  .hover:hover {
+  display: block;
+  }
