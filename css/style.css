@@ -700,18 +700,23 @@ nav ul li a {
 
 /* Stuff that scooter added */
 
-span {
+.display_hover {
   display: none;
   }
 
-  p:hover + .display_hover, p {
+  .only_hover:hover + .display_hover {
   display: inline-block;
   font-size: 18px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  font-size: 16px;
   letter-spacing: 5px;
   margin-top: 30px;
   text-transform: capitalize;
   background-color: #008075;
   color: #ffffff;
-  font-weight: 500;
-  margin-top: 30px;
+}
+
+.only_hover:hover, .display_hover {
+  
 }
