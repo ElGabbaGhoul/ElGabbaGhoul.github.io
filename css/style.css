@@ -705,5 +705,5 @@ nav ul li a {
   }
   
   .hover:hover {
-  display: block;
+  display: true;
   }
