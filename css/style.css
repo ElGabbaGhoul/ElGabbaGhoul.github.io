@@ -723,3 +723,7 @@ nav ul li a {
   cursor: none;
 }
 
+.svg {
+  height: 1rem;
+  width: auto;
+}

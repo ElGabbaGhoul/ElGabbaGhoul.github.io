@@ -15,3 +15,8 @@
 
 - continued working on EXCALIDRAWING plans for site
 - made minor changes to index.html
+
+1/12/23
+
+- added hidden text functionality that works! (thanks Evelyn)
+- fixed size and color of TIKTOK SVG
