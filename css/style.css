@@ -700,23 +700,26 @@ nav ul li a {
 
 /* Stuff that scooter added */
 
-.display_hover {
-  display: none;
-  }
-
-  .only_hover:hover + .display_hover {
-  display: inline-block;
-  font-size: 18px;
-  letter-spacing: 5px;
-  margin-top: 30px;
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin-top: 30px;
-  text-transform: capitalize;
-  background-color: #008075;
-  color: #ffffff;
+#cf {
+  position: relative;
+  margin: 0 auto;
 }
 
-.only_hover:hover, .display_hover {
-  
+#cf span {
+  position: relative;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
+
+#cf span.displayOnHover {
+  opacity: 0;
+}
+
+#cf span.displayOnHover:hover {
+  opacity:100;
+  cursor: none;
+}
+
